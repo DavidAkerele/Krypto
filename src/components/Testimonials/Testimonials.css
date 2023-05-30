@@ -1,0 +1,119 @@
+.test-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.test-container p {
+  width: 165px;
+  height: 28px;
+
+  /* Subheading */
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #aad9d9;
+}
+.test-container h1 {
+  width: 499px;
+  height: 116px;
+
+  /* H2 */
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 57px;
+  line-height: 101%;
+  /* or 58px */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.cards {
+  margin-top: 60px;
+  /* border: 1px solid white; */
+  display: flex;
+  gap: 14px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  height: 259px (fit);
+  align-items: center;
+
+  background: #0e0e48;
+  border-radius: 20px;
+}
+
+.info h2 {
+  width: 143px (hug);
+  background: transparent;
+  height: 28px;
+
+  /* Subheading */
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.info h3 {
+  width: 269px;
+  height: 113px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 115%;
+  /* or 18px */
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-top: 14px;
+  background: transparent;
+}
+.info img {
+  background: transparent;
+  transform: translateY(-40px);
+}
+.olve {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.olve img{
+    transform: translateY(65px);
+    background: transparent;
+    filter: opacity(0.4) grayscale(80%) drop-shadow(0 0 #0303e0);
+    /* -webkit-filter: ; */
+}

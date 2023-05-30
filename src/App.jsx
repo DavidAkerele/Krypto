@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Featured from "./components/Featured/Featured";
 import Analytics from "./components/Analytics/Analytics";
 import GOA from "./components/GOA/GOA";
+import Testimonials from "./components/Testimonials/Testimonials";
 // import HueO from './assets/hueone.svg'
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
         <Featured />
         <Analytics />
         <GOA />
+        <Testimonials />
       </div>
     );
   }
