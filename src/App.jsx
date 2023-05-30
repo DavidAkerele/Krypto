@@ -8,6 +8,7 @@ import GOA from "./components/GOA/GOA";
 import Testimonials from "./components/Testimonials/Testimonials";
 import AYR from "./components/AYR/AYR";
 import Footer from "./components/Footer/Footer";
+import Down from "./components/Down/Down";
 // import HueO from './assets/hueone.svg'
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
         <Testimonials />
         <AYR />
         <Footer />
+        <Down />
       </div>
     );
   }

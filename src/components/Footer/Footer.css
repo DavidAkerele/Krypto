@@ -1,0 +1,58 @@
+.footer-container{
+    display:flex;
+    width: 1059px;
+    justify-content: space-between;
+    color: white;
+    margin: 0 auto;
+    padding-top: 136px;
+    margin-bottom: 100px;
+}
+
+.heed{
+    padding-bottom:19px;
+    
+}
+
+.newsletter input{
+
+width: 343px;
+height: 56px;
+border: none;
+background: #11124B;
+border-radius: 70px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 31px;
+/* identical to box height, or 194% */
+
+
+color: #FFFFFF;
+
+/* opacity: 0.67; */
+padding-left: 29px;
+
+}
+
+.newsletter button{
+    width: 117px;
+height: 39px;
+border: none;
+
+background: #9090DC;
+border-radius: 70px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* line-height: 16px; */
+text-transform: uppercase;
+
+color: #FFFFFF;
+transform: translateX(-130px);
+}
+
+.newsinp{
+    padding-top: 31px;
+}
