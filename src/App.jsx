@@ -6,6 +6,8 @@ import Featured from "./components/Featured/Featured";
 import Analytics from "./components/Analytics/Analytics";
 import GOA from "./components/GOA/GOA";
 import Testimonials from "./components/Testimonials/Testimonials";
+import AYR from "./components/AYR/AYR";
+import Footer from "./components/Footer/Footer";
 // import HueO from './assets/hueone.svg'
 
 class App extends React.Component {
@@ -20,6 +22,8 @@ class App extends React.Component {
         <Analytics />
         <GOA />
         <Testimonials />
+        <AYR />
+        <Footer />
       </div>
     );
   }
