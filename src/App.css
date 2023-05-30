@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #010922;
+
+    --navy: #010922;
+    --purple: #8080D7;
+    --aqua: #AAD9D9;
+    
+}
+
+body{
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Outfit', sans-serif;
+ 
+}
+
+/* .Huee{
+  z-index:-1;
+} */
+
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as desired */
+}
+::-webkit-scrollbar-track {
+  background-color:#010922; /* Replace with your preferred color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8080D7; /* Replace with your preferred color */
+  border-radius: 5px; /* Adjust the radius for a different shape */
+}

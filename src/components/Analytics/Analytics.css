@@ -1,0 +1,96 @@
+.analytics-container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1052px;
+}
+.tit{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 138% */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #AAD9D9;
+padding-bottom: 9px;
+}
+
+.head{
+    width: 493px;
+height: 126px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 900;
+font-size: 57px;
+line-height: 101%;
+/* or 58px */
+
+text-transform: capitalize;
+padding-bottom: 9px;
+color: #FFFFFF;
+}
+
+.yarnz{
+    width: 488px;
+height: 83px;
+
+/* Body Text */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 138% */
+
+
+color: #FFFFFF;
+}
+
+.featbtn{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 22px 56px;
+gap: 10px;
+
+
+width: 331px(hug);
+height: 72px;
+
+
+
+background: #9090DC;
+border-radius: 83px;
+/* width: 212px;
+height: 28px; */
+
+/* Subheading */
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 138% */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+border: none;
+}
+
+.featright button{
+    padding-top:23px;
+}
+
+.featright {
+    padding-right:30px;
+}

@@ -1,0 +1,16 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.right ul{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+    color: #fff;
+}

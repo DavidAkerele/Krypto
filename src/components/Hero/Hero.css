@@ -1,0 +1,105 @@
+.hero-container {
+  width: 1057px;
+  height: 573px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.hero-left-top {
+  color: white;
+}
+
+.hero-left-top h1 {
+  /* H1-Main Heading */
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 83px;
+  line-height: 101%;
+  /* or 84px */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+  width: 514px;
+  height: 253px;
+  padding-bottom: 20px;
+}
+
+.hero-left-top p {
+  /* Body Text */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 138% */
+
+  color: #ffffff;
+}
+
+.btnone {
+  justify-content: center;
+  align-items: center;
+  /* padding: 22px 56px; */
+
+  width: 236px;
+  height: 72px;
+  /* left: calc(50% - 236px/2 - 411px);
+top: 636px; */
+
+  background: #9090dc;
+  border-radius: 83px;
+  border: none;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.btntwo {
+  align-items: flex-start;
+  /* padding: 22px 56px; */
+
+  width: 227px;
+  height: 72px;
+  /* left: calc(50% - 227px/2 - 160.5px); */
+
+  border: 2px solid #97d5d5;
+  border-radius: 83px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-left-bottom {
+  padding-top: 55px;
+  justify-content: space-between;
+  width: 514px;
+  display: flex;
+}
+
+.pishur {
+  width: 539px;
+  height: 573px;
+}
